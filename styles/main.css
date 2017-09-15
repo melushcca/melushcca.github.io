@@ -1,6 +1,7 @@
 .nav-container {
   background-color: #333;
   width: 20%;
+  position: fixed;
 }
 
 .nav-container > nav {
@@ -24,12 +25,29 @@
 .portrait-container {
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 #portrait-img {
   width: 50%;
   border-radius: 50%;
+}
+
+.intro {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.intro > h1 {
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 20px;
+  color: #f9f9f9;
+}
+
+.intro > p {
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 14px;
+  color: #f9f9f9;
+  line-height: 90%;
 }
 
 .socials {
