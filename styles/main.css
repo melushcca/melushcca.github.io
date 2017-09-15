@@ -1,0 +1,45 @@
+.nav-container {
+  background-color: #333;
+  width: 20%;
+}
+
+.nav-container > nav {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.nav-container > nav > a {
+  height: 50px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans, Arial, sans-serif;
+  text-transform: uppercase;
+  color: #f9f9f9;
+  text-decoration: none;
+}
+
+.portrait-container {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#portrait-img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 80px;
+}
+
+.socials > a {
+  font-size: 30px;
+  color: #c6c6c6;
+}
