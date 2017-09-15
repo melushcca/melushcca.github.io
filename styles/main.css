@@ -1,3 +1,12 @@
+body {
+  width: 100%;
+}
+
+header {
+  width: 20%;
+  float: left;
+}
+
 .nav-container {
   background-color: #333;
   width: 20%;
@@ -61,3 +70,51 @@
   font-size: 30px;
   color: #c6c6c6;
 }
+
+main {
+  width: 100%;
+  padding-left:20%;
+  float: left;
+  margin: 50px;
+}
+
+.title {
+  font-family: Open Sans, Arial, sans-serif;
+}
+
+.intro-sections {
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.tab-buttons{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-button--active > .tab-link {
+  background-color: #474747;
+}
+
+.tab-link {
+  display: block;
+  padding: 20px;
+  background-color: #313131;
+  color: #f4f4f4;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.tab-content {
+  display:none;
+  padding: 20px;
+  background-color:#474747;
+  color: #f4f4f4;
+}
+
+.tab-content--active{
+  display: block;
+}
+
