@@ -79,6 +79,7 @@ main {
 }
 
 .title {
+  padding-top: 50px;
   font-family: Open Sans, Arial, sans-serif;
 }
 
@@ -87,8 +88,15 @@ main {
   font-size: 14px;
 }
 
+.tabs {
+  display: block;
+}
+
 .tab-buttons{
   display: flex;
+  flex-direction: column;
+  float:left;
+  width: 20%;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -102,16 +110,20 @@ main {
   display: block;
   padding: 20px;
   background-color: #313131;
-  color: #f4f4f4;
+  color: #f9f9f9;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: Open Sans, Arial, sans-serif;
 }
 
 .tab-content {
   display:none;
   padding: 20px;
   background-color:#474747;
-  color: #f4f4f4;
+  color: #f9f9f9;
+  font-family: Open Sans, Arial, sans-serif;
+  font-size: 14px;
+  width:90%;
 }
 
 .tab-content--active{
