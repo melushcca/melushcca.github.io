@@ -46,6 +46,10 @@ h3 {
   text-decoration: none;
 }
 
+.nav-container > nav > a:hover {
+  text-decoration: underline;
+}
+
 .portrait-container {
   text-align: center;
   padding-top: 50px;
