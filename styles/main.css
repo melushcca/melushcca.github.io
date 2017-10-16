@@ -10,6 +10,13 @@ header {
 
 h2 {
   font-family: Open Sans, Arial, sans-serif;
+  font-size: 17px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: Open Sans, Arial, sans-serif;
   font-size: 15px;
   color: #333333;
   text-transform: uppercase;
@@ -175,4 +182,11 @@ span {
   text-align: left;
   border-radius:20px;
   transition-duration: 3s;
+  background-color: #D8AE47;
+}
+
+.bar-container {
+  width: 50% !important;
+  float: left;
+  padding: 20px;
 }
