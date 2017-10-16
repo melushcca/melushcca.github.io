@@ -154,10 +154,16 @@ main {
 
 /* SKILLS */
 
-.progress {
-  height: 20px;
-  border-radius:20px;
+.skill-container {
+  padding-top: 350px;
+  padding-bottom: 250px;
+  display: block;
+  height: 100%;
+}
 
+.progress {
+  height: 15px;
+  border-radius: none !important;
 }
 
 .progress .skill .val {
@@ -180,7 +186,7 @@ span {
 
 .progress-bar {
   text-align: left;
-  border-radius:20px;
+  border-radius: none;
   transition-duration: 3s;
   background-color: #D8AE47;
 }
@@ -188,5 +194,27 @@ span {
 .bar-container {
   width: 50% !important;
   float: left;
-  padding: 20px;
+  padding-right: 20px;
+}
+
+/* PORTFOLIO */
+
+.portfolio-content {
+  width: 100%;
+  /*text-align:center;*/
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+  /*margin-left: auto;
+  margin-right: auto;*/
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.portfolio-content img {
+  width: 33%;
+  height: 30%;
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+  padding: 3px;
 }
