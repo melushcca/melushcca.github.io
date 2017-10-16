@@ -1,4 +1,3 @@
-
 // ABOUT/TABS
 $('.tab-button').click(function() {
     var index = $(this).index();
@@ -8,12 +7,13 @@ $('.tab-button').click(function() {
     $(this).addClass('tab-button--active');
 })
 
-
-
-
-
-
-
-
+// SKILLS
+$(document).ready(function() {
+  $('.progress .progress-bar').css("width",
+                                   function() {
+    return $(this).attr("aria-valuenow") + "%";
+  }
+ )
+});
 
 
