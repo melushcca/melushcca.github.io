@@ -78,6 +78,10 @@ h3 {
   line-height: 90%;
 }
 
+.hireme > a {
+  color: #D8AE47;
+}
+
 .socials {
   display: flex;
   justify-content: space-around;
@@ -91,11 +95,23 @@ h3 {
 }
 
 main {
-  width: 100%;
+  width: auto;
   padding-left:20%;
-  padding-right: 5%;
   float: left;
   margin: 50px;
+}
+
+footer {
+  padding-left: 20%;
+  float: left;
+  background-color: #D8AE47; 
+  width: 100%;
+}
+
+footer > p {
+  margin: 50px;
+  color: #ffffff;
+  font-size: 15px;
 }
 
 .title {
@@ -216,9 +232,56 @@ span {
 }
 
 .portfolio-content img {
-  width: 33%;
+  width: 25%;
   height: 30%;
   -webkit-filter: grayscale(60%);
   filter: grayscale(60%);
   padding: 3px;
 }
+
+/* CONTACTFORM */ 
+.contactform {
+  width: 50%;
+  padding-right: 20px;
+  float: left;
+}
+
+.contactform-input {
+  height: 50px;
+  width: 50%;
+  float: left;
+  border: none;
+}
+
+.contactform-textarea {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border: none;
+  padding: 3px;
+}
+
+.contactform-submit {
+  height: 50px;
+  width: 100%;
+  border: none;
+  background-color: #333;
+  color: #f9f9f9;
+}
+
+.info-container {
+  width: 50%;
+  float: left;
+  background-color: #f2f2f2;
+}
+
+.info-container > i {
+  color: #333333;  
+}
+
+
+/* MAP */
+#map {
+  height: 400px;
+  width: 100%;
+ }
