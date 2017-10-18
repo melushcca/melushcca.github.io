@@ -286,3 +286,21 @@ span {
   height: 40vh;
   width: 100%;
  }
+
+
+/* BACK TO TOP */
+#toTop {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #D8AE47;
+  background: #f2f2f2;
+  color: #333333;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  cursor: pointer;
+  padding-top:5px;
+  text-align: center;
+  font-size: 30px;
+}
