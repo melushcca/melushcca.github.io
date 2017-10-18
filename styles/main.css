@@ -247,22 +247,23 @@ span {
 }
 
 .contactform-input {
-  height: 50px;
+  height: 5vh;
   width: 50%;
   float: left;
   border: none;
+  padding: 10px;
 }
 
 .contactform-textarea {
   display: block;
   width: 100%;
-  height: 300px;
+  height: 30vh;
   border: none;
-  padding: 3px;
+  padding: 10px;
 }
 
 .contactform-submit {
-  height: 50px;
+  height: 5vh;
   width: 100%;
   border: none;
   background-color: #333;
@@ -282,6 +283,6 @@ span {
 
 /* MAP */
 #map {
-  height: 400px;
+  height: 40vh;
   width: 100%;
  }
