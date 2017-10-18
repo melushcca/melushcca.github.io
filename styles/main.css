@@ -128,6 +128,7 @@ footer > p {
 
 .tabs {
   display: block;
+  padding-top: 50px;
 }
 
 .tab-buttons{
@@ -140,8 +141,13 @@ footer > p {
   margin: 0;
 }
 
+.tab-button > a:hover {
+  color: #D8AE47;
+}
+
 .tab-button--active > .tab-link {
   background-color: #ffffff;
+  color: #D8AE47;
 }
 
 .tab-link {
@@ -221,12 +227,8 @@ span {
 
 .portfolio-content {
   width: 100%;
-  /*text-align:center;*/
   display: flex;
   flex-wrap: wrap;
-  /*justify-content: center;*/
-  /*margin-left: auto;
-  margin-right: auto;*/
   margin-top: 70px;
   margin-bottom: 100px;
 }
@@ -239,11 +241,119 @@ span {
   padding: 3px;
 }
 
+/* PORTFOLIO HOVER */
+.item-hover {
+	position: relative;
+  height: 30%;
+  width: 25%;
+	float: left;
+	overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item-hover > img {
+  width: 100%;
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+  padding: 3px;
+}
+
+.item-hover > .overlay {
+	width: 100%;
+	height: 100%;
+  padding: 3px;
+	background: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+
+	-webkit-transform: translate(0,300px);
+	-moz-transform: translate(0,300px);
+	-o-transform: translate(0,300px);
+	-ms-transform: translate(0,300px);
+	transform: translate(0,300px);
+}
+
+.item-hover > h3 {
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+  color: #fff;
+
+	-webkit-transition: all .6s ease-in;
+	-moz-transition: all .6s ease-in;
+	-o-transition: all .6s ease-in;
+	-ms-transition: all .6s ease-in;
+	transition: all .6s ease-in;
+
+	-webkit-transform: translate(0,200px);
+	-moz-transform: translate(0,200px);
+	-o-transform: translate(0,200px);
+	-ms-transform: translate(0,200px);
+	transform: translate(0,200px);
+	text-align: center;
+	z-index: 2;
+}
+
+.item-hover > button {
+	border: 0px;
+	background: #D8AE47;
+	color: #fff;
+	width: 100px;
+	height: 40px;
+	top: 100px;
+	position: absolute;
+
+	-webkit-transform: translate(0,300px);
+	-moz-transform: translate(0,300px);
+	-o-transform: translate(0,300px);
+	-ms-transform: translate(0,300px);
+	transform: translate(0,300px);
+	z-index: 2;
+}
+
+.item-hover > .overlay {
+	-webkit-transition: .6s ease-in;
+	-moz-transition: .6s ease-in;
+	-o-transition: .6s ease-in;
+	-ms-transition: .6s ease-in;
+	transition: .6s ease-in;
+}
+
+.item-hover > h3 {
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+	transition: .5s ease-in;
+}
+
+.item-hover > button {
+	-webkit-transition: .5s ease-in;
+	-moz-transition: .5s ease-in;
+	-o-transition: .5s ease-in;
+	-ms-transition: .5s ease-in;
+	transition: .5s ease-in;
+}
+
+.item-hover:hover > .overlay,.item-hover:hover > h3,.item-hover:hover > p,.item-hover:hover > button {
+	-webkit-transform: rotate(0deg) translate(0,0);
+	-moz-transform: rotate(0deg) translate(0,0);
+	-o-transform: rotate(0deg) translate(0,0);
+	-ms-transform: rotate(0deg) translate(0,0);
+	transform: rotate(0deg) translate(0,0);
+}
+
 /* CONTACTFORM */ 
 .contactform {
   width: 50%;
   padding-right: 20px;
   float: left;
+  padding-top: 50px;
 }
 
 .contactform-input {
@@ -270,22 +380,17 @@ span {
   color: #f9f9f9;
 }
 
-.info-container {
-  width: 50%;
-  float: left;
-  background-color: #f2f2f2;
-}
-
-.info-container > i {
-  color: #333333;  
-}
-
-
 /* MAP */
 #map {
   height: 40vh;
   width: 100%;
  }
+
+.info-container {
+  width: 50%;
+  float: left;
+  padding-top: 50px;
+}
 
 
 /* BACK TO TOP */
@@ -304,3 +409,4 @@ span {
   text-align: center;
   font-size: 30px;
 }
+
