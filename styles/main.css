@@ -29,17 +29,28 @@ h3 {
 }
 
 .nav-container > nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 100vh;
 }
 
 .nav-container > nav > a {
   height: 50px;
   width: 100%;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: Open Sans, Arial, sans-serif;
   text-transform: uppercase;
   color: #f9f9f9;
@@ -83,8 +94,11 @@ h3 {
 }
 
 .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 100%;
   padding-top: 80px;
 }
@@ -132,8 +146,13 @@ footer > p {
 }
 
 .tab-buttons{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   float:left;
   width: 20%;
   list-style: none;
@@ -213,7 +232,8 @@ span {
 .progress-bar {
   text-align: left;
   border-radius: none;
-  transition-duration: 3s;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
   background-color: #D8AE47;
 }
 
@@ -227,8 +247,11 @@ span {
 
 .portfolio-content {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin-top: 70px;
   margin-bottom: 100px;
 }
@@ -237,6 +260,7 @@ span {
   width: 25%;
   height: 30%;
   -webkit-filter: grayscale(60%);
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.52756 0.42911999999999995 0.04332 0 0 0.12756 0.82912 0.04332 0 0 0.12756 0.42911999999999995 0.44332 0 0 0 0 0 1 0" /></filter></svg>#filter');
   filter: grayscale(60%);
   padding: 3px;
 }
@@ -248,14 +272,20 @@ span {
   width: 25%;
 	float: left;
 	overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .item-hover > img {
   width: 100%;
   -webkit-filter: grayscale(60%);
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.52756 0.42911999999999995 0.04332 0 0 0.12756 0.82912 0.04332 0 0 0.12756 0.42911999999999995 0.44332 0 0 0 0 0 1 0" /></filter></svg>#filter');
   filter: grayscale(60%);
   padding: 3px;
 }
@@ -271,9 +301,6 @@ span {
 	z-index: 1;
 
 	-webkit-transform: translate(0,300px);
-	-moz-transform: translate(0,300px);
-	-o-transform: translate(0,300px);
-	-ms-transform: translate(0,300px);
 	transform: translate(0,300px);
 }
 
@@ -285,15 +312,9 @@ span {
   color: #fff;
 
 	-webkit-transition: all .6s ease-in;
-	-moz-transition: all .6s ease-in;
-	-o-transition: all .6s ease-in;
-	-ms-transition: all .6s ease-in;
 	transition: all .6s ease-in;
 
 	-webkit-transform: translate(0,200px);
-	-moz-transform: translate(0,200px);
-	-o-transform: translate(0,200px);
-	-ms-transform: translate(0,200px);
 	transform: translate(0,200px);
 	text-align: center;
 	z-index: 2;
@@ -309,42 +330,27 @@ span {
 	position: absolute;
 
 	-webkit-transform: translate(0,300px);
-	-moz-transform: translate(0,300px);
-	-o-transform: translate(0,300px);
-	-ms-transform: translate(0,300px);
 	transform: translate(0,300px);
 	z-index: 2;
 }
 
 .item-hover > .overlay {
 	-webkit-transition: .6s ease-in;
-	-moz-transition: .6s ease-in;
-	-o-transition: .6s ease-in;
-	-ms-transition: .6s ease-in;
 	transition: .6s ease-in;
 }
 
 .item-hover > h3 {
 	-webkit-transition: .5s ease-in;
-	-moz-transition: .5s ease-in;
-	-o-transition: .5s ease-in;
-	-ms-transition: .5s ease-in;
 	transition: .5s ease-in;
 }
 
 .item-hover > button {
 	-webkit-transition: .5s ease-in;
-	-moz-transition: .5s ease-in;
-	-o-transition: .5s ease-in;
-	-ms-transition: .5s ease-in;
 	transition: .5s ease-in;
 }
 
 .item-hover:hover > .overlay,.item-hover:hover > h3,.item-hover:hover > p,.item-hover:hover > button {
 	-webkit-transform: rotate(0deg) translate(0,0);
-	-moz-transform: rotate(0deg) translate(0,0);
-	-o-transform: rotate(0deg) translate(0,0);
-	-ms-transform: rotate(0deg) translate(0,0);
 	transform: rotate(0deg) translate(0,0);
 }
 
