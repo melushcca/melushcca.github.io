@@ -1,0 +1,51 @@
+@media screen and (max-width: 1060px) {
+	
+	/* PORTFOLIO */
+	.item-hover > h3 {
+		font-size: 11px;
+	}
+	
+	.item-hover > button {
+		top: 80px;
+		height: 30px;
+	}
+	
+	/* MAP */
+	#map {
+		height: 30vh;
+	}
+	
+	/* CONTACTFORM */
+	.contactform-input{
+		height: 2.5vh;
+	}
+	
+	.contactform-textarea {
+		height: 25vh;
+	}
+	
+	.contactform-submit {
+		height: 2.5vh;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.item-hover {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 675px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .nav-container {
+	  height: 10vh !important;
+	  display: block;
+  }
+  
+  .nav-container > nav {
+	  height: 10vh;
+  }
+}
