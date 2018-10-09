@@ -1,0 +1,189 @@
+h1 {
+	font-family: 'Luckiest Guy';
+}
+
+h2 {
+	font-family: 'Luckiest Guy';
+}
+
+h3 {
+	font-family: 'Luckiest Guy';
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav-img > img{
+  height: 20px;
+  padding-left: 20px;
+}
+
+.navi {
+  background-color: #333;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  width: 80%;
+}
+
+nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+nav > ul > li {
+  width: 15%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  font-family: 'Luckiest Guy';
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+.header-img {
+  background-image: url("/img/Llama.jpg");
+  background-position: center bottom;
+  background-size: cover;
+  height: 30vh;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  width: 100%;
+}
+
+main {
+  margin-top: 100px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-container {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-box {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.item-box > img {
+  width: 100%;
+  padding: 3px;
+}
+
+.item-box > figcaption {
+  position: absolute;
+  color: #fff;
+  font-family: 'Luckiest Guy';
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  z-index: 99;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  height: 80px;
+  bottom: 0;
+}
+
+.news-container {
+  width: 100%;
+}
+
+.teasers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-teaser {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+  margin-right: 1.5px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  background: url("/img/purple.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  color: #fff;
+}
+
+.second-teaser {
+  width: 50%;
+  margin-top: 3px;
+  margin-right: 3px;
+  margin-bottom: 3px;
+  margin-left: 1.5px;
+  color: #fff;
+}
+
+.second-teaser-box {
+  height: 100px;
+}
+
+.first {
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/img/blue.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+.second {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("/img/gold.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.third-teaser {
+  background-color: green;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  background: url("https://i.stack.imgur.com/qVsho.jpg");
+  background-repeat: no-repeat;
+  background-position: center; 
+  color: #fff;
+}
